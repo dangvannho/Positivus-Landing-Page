@@ -3,7 +3,7 @@ import Information from "./components/Information";
 
 const Footer = () => {
   return (
-    <div className="absolute left-0 tablet:static mt-[140px] py-[55px] tablet:px-[60px] bg-dark-gray tablet:rounded-tl-[45px] rounded-br-none tablet:rounded-tr-[45px] rounded-bl-none">
+    <footer className="absolute left-0 tablet:static mt-[140px] py-[55px] tablet:px-[60px] bg-dark-gray tablet:rounded-tl-[45px] rounded-br-none tablet:rounded-tr-[45px] rounded-bl-none">
       <Heading />
       <Information />
 
@@ -15,7 +15,7 @@ const Footer = () => {
           Privacy Policy
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

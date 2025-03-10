@@ -72,14 +72,14 @@ const Service = () => {
     },
   ];
   return (
-    <div className="mt-[140px]">
+    <div className="mt-[60px] laptop:mt-[140px]">
       <HighlightedTitle
         title="Services"
         description="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
         className="lg:w-[580px]"
       />
 
-      <div className="mt-[80px] grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="mt-[50px] lg:mt-[80px] grid grid-cols-1 lg:grid-cols-2 gap-10">
         {services.map((item, index) => {
           return (
             <ServiceItem

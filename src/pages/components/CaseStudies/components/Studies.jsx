@@ -17,7 +17,7 @@ const Studies = () => {
   ];
 
   return (
-    <div className="mt-[85px] flex gap-4 overflow-auto scrollbar-hide lg:gap-0 lg:bg-dark-gray lg:rounded-[45px] lg:py-[70px]">
+    <div className="mt-[50px] lg:mt-[85px] flex gap-4 overflow-auto scrollbar-hide lg:gap-0 lg:bg-dark-gray lg:rounded-[45px] lg:py-[70px]">
       {data.map((item, index) => {
         const lastItem = index;
         let check = false;
@@ -35,9 +35,12 @@ const Studies = () => {
               {item.description}
             </p>
             <div className="flex items-center gap-5 mt-5">
-              <span className="text-lg tablet:text-xl text-lime-green">
+              <a
+                href="#!"
+                className="text-lg tablet:text-xl text-lime-green hover:underline"
+              >
                 Learn more
-              </span>
+              </a>
               <IconArrow className="w-[15px] h-[15px] tablet:w-[20px] tablet:h-[21px]" />
             </div>
           </div>

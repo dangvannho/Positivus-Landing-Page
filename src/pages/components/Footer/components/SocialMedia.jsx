@@ -5,9 +5,15 @@ import IconTw from "~/components/icons/IconTw";
 const SocialMedia = () => {
   return (
     <div className="flex gap-[20px]">
-      <IconIns2 />
-      <IconFb color="white" />
-      <IconTw />
+      <a href="#!">
+        <IconIns2 />
+      </a>
+      <a href="#!">
+        <IconFb color="white" />
+      </a>
+      <a href="#!">
+        <IconTw />
+      </a>
     </div>
   );
 };

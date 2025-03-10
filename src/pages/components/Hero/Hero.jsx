@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 auto-rows-max mt-[35px] lg:mt-[70px]">
       {/* hero infomation */}
       <div className="col-[1_/_2]">
-        <h3 className="lg:w-[531px] desktop:w-full text-[40px] tablet:text-[60px] font-medium text-left tablet:text-center lg:text-left laptop:justify-self-start">
+        <h1 className="lg:w-[531px] desktop:w-full text-3xl tablet:text-[60px] leading-normal font-medium text-center lg:text-left laptop:justify-self-start">
           Navigating the digital landscape for success
-        </h3>
+        </h1>
       </div>
 
       {/* hero image */}

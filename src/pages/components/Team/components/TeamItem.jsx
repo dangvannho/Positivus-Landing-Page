@@ -13,9 +13,11 @@ const TeamItem = ({ name, position, des_exp }) => {
             <span className="text-lg">{position}</span>
           </div>
         </div>
-        <IconIns1 />
+        <a href="#!">
+          <IconIns1 />
+        </a>
       </div>
-      <p className="flex-1 pt-[28px] text-lg ">{des_exp}</p>
+      <p className="flex-1 pt-[28px] text-lg line-clamp-3">{des_exp}</p>
     </div>
   );
 };

@@ -60,14 +60,14 @@ const Team = () => {
   const visibleItems = showAll ? data : data.slice(0, 6);
 
   return (
-    <div className="mt-[140px]">
+    <div className="mt-[65px] lg:mt-[140px]">
       <HighlightedTitle
         title="Team"
         description="Meet the skilled and experienced team behind our successful digital marketing strategies"
         className="lg:w-[473px]"
       />
 
-      <div className="mt-[80px] grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 auto-rows-max justify-center gap-[40px]">
+      <div className="mt-[50px] lg:mt-[80px] grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 auto-rows-max justify-center gap-[40px]">
         {visibleItems.map((item, index) => {
           return (
             <TeamItem

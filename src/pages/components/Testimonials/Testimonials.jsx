@@ -47,14 +47,14 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="mt-[100px]">
+    <div className="mt-[50px] lg:mt-[100px]">
       <HighlightedTitle
         title="Testimonials"
         description="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
         className="lg:w-[473px]"
       />
 
-      <div className="flex flex-col items-center mt-[85px] tablet:px-[20px] lg:px-0 py-[68px] rounded-[45px] bg-dark-gray overflow-hidden">
+      <div className="flex flex-col items-center mt-[50px] lg:mt-[85px] tablet:px-[20px] lg:px-0 py-[68px] rounded-[45px] bg-dark-gray overflow-hidden">
         <div
           className="flex transition-transform duration-500 ease-in-out w-[300px] tablet:w-full lg:w-[606px] overflow-visible gap-8"
           style={{ transform: `translateX(-${currentSlide * 105}%)` }}

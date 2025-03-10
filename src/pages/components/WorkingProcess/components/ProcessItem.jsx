@@ -9,7 +9,8 @@ const ProcessItem = ({ number, title, description }) => {
     <div
       className={`px-4 tablet:px-[60px] py-[25px] tablet:py-[41px] ${
         toggle ? "bg-lime-green" : "bg-light-gray"
-      } shadow-[0px_5px_0px_0px_#191A23] rounded-[45px]`}
+      } shadow-[0px_5px_0px_0px_#191A23] rounded-[45px] cursor-pointer`}
+      onClick={() => setToggle(!toggle)}
     >
       <div className="tablet:pb-[30px] flex tablet:border-b tablet:border-black">
         <div className="flex flex-1 gap-[25px] items-center">
@@ -25,7 +26,6 @@ const ProcessItem = ({ number, title, description }) => {
           className={`flex items-center cursor-pointer transition-transform duration-500 ${
             toggle ? "rotate-180" : "rotate-0"
           }`}
-          onClick={() => setToggle(!toggle)}
         >
           {toggle ? (
             <IconMinus className="w-[35px] h-[36px] tablet:w-[58px] tablet:h-[59px]" />

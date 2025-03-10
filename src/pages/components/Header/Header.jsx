@@ -7,11 +7,13 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <header className="relative mt-8 lg:mt-[60px] flex items-center justify-between">
-      <img
-        src="/Logo_Dark.svg"
-        alt=""
-        className="w-[150px] tablet:w-auto tablet:h-auto"
-      />
+      <a href="">
+        <img
+          src="/Logo_Dark.svg"
+          alt=""
+          className="w-[150px] tablet:w-auto tablet:h-auto"
+        />
+      </a>
       <Navbar toggle={toggle} />
       <Button className="hover:bg-dark-gray hover:text-white hidden lg:block lg:text-sm laptop:text-xl">
         Request a quote

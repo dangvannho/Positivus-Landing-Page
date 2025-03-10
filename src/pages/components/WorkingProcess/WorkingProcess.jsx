@@ -41,14 +41,14 @@ const WorkingProcess = () => {
     },
   ];
   return (
-    <div className="mt-[140px]">
+    <div className="mt-[65px] lg:mt-[140px]">
       <HighlightedTitle
         title="Our Working Process"
         description="Step-by-Step Guide to Achieving Your Business Goals"
         className="lg:w-[292px]"
       />
 
-      <div className="mt-[80px] flex flex-col gap-[30px]">
+      <div className="mt-[50px] lg:mt-[80px] flex flex-col gap-[30px]">
         {data.map((item, index) => {
           return (
             <ProcessItem

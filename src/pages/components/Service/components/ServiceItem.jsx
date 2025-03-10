@@ -17,22 +17,27 @@ const ServiceItem = ({
       <div className="flex items-center gap-20">
         {/* Infomation service */}
         <div className="flex-1">
-          <h4
-            className={`text-[25px] tabel:text-[30px] font-medium ${bgTitle} w-max px-1 rounded-[7px]`}
-          >
-            {title1}
-          </h4>
-          <h4
-            className={`text-[25px] tabel:text-[30px] font-medium ${bgTitle} w-max px-1 rounded-[7px]`}
-          >
-            {title2}
-          </h4>
+          <h3 className="flex flex-col">
+            <span
+              className={`inline-block text-[25px] tabel:text-[30px] font-medium ${bgTitle} w-max px-1 rounded-[7px]`}
+            >
+              {title1}
+            </span>
+            <span
+              className={`inline-block text-[25px] tabel:text-[30px] font-medium ${bgTitle} w-max px-1 rounded-[7px]`}
+            >
+              {title2}
+            </span>
+          </h3>
 
           <div className="mt-[93px] flex items-center gap-[15px]">
             <IconCircleArrow bgCircle={bgCircle} fill={fill} />
-            <span className={`text-xl ${colorLearn} hidden md:block`}>
+            <a
+              href="#!"
+              className={`text-xl ${colorLearn} hidden md:block hover:underline`}
+            >
               Learn more
-            </span>
+            </a>
           </div>
         </div>
 
@@ -41,7 +46,7 @@ const ServiceItem = ({
           <img
             src={image}
             alt=""
-            className="w-[130px] tablet:w-auto tablet:h-auto"
+            className="max-w-[130px] tablet:max-w-[300px] h-auto"
           />
         </div>
       </div>
