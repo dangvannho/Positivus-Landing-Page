@@ -12,7 +12,7 @@ const Header = () => {
         alt=""
         className="w-[150px] tablet:w-auto tablet:h-auto"
       />
-      <Navbar toggle={toggle} setToggle={setToggle} />
+      <Navbar toggle={toggle} />
       <Button className="hover:bg-dark-gray hover:text-white hidden lg:block lg:text-sm laptop:text-xl">
         Request a quote
       </Button>

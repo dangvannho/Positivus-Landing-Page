@@ -6,11 +6,7 @@ const TeamItem = ({ name, position, des_exp }) => {
     <div className="flex flex-col px-[35px] py-[40px] rounded-[45px] shadow-[0px_5px_0px_0px_#191A23] border border-black">
       <div className="pb-[28px] border-b border-black flex-1 flex justify-between">
         <div className="flex gap-6 items-end">
-          <img
-            src={Avatar1}
-            alt=""
-            className="w-[120px] h-[120px] object-cover"
-          />
+          <img src={Avatar1} alt="" className="w-[125px] h-[125px]" />
 
           <div>
             <h4 className="text-xl font-medium">{name}</h4>
